@@ -1,11 +1,11 @@
 {
   "name": "proyecto-final",
   "version": "1.0.0",
-  "description": "",
+  "description": "Estos son los archivos de la cuarta entrega del proyecto final de coder house",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pablo Barrios",
   "license": "ISC"
 }
