@@ -1,0 +1,20 @@
+/* Sass */
+
+// Imports de base
+@import 'base/fuentes';
+@import 'base/colores';
+@import 'base/root';
+@import 'base/mixins';
+
+// Imports de components
+@import 'components/generales';
+@import 'components/navbar';
+@import 'components/inicio';
+@import 'components/galeria';
+@import 'components/nosotros';
+@import 'components/servicios';
+@import 'components/tienda';
+@import 'components/contacto';
+@import 'components/footer';
+@import 'components/mediaqueries';
+@import 'components/animaciones';

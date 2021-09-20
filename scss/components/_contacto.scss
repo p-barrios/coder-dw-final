@@ -1,0 +1,64 @@
+/* section-contacto */
+
+section.contacto {
+    display: flex;
+    flex-direction: column;
+    form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        .derecha,
+        .izquierda {
+            display: inline-block;
+            padding: 20px;
+            margin: 2%;
+            width: 40%;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 90%;
+            border: 2px var(--main-color-25) solid;
+            padding: 10px;
+            border-radius: var(--border-radius-input);
+            margin: 20px auto;
+            &::placeholder {
+                color: var(--main-color-25);
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-size: 1rem;
+            }
+            &:focus {
+                border: 2px var(--main-color) solid;
+                background: var(--main-color-10);
+                &::placeholder {
+                    color: var(--text-color-ligth);
+                }
+            }
+        }
+        textarea {
+            width: 90%;
+            display: inline-block;
+            border: 2px var(--main-color-25) solid;
+            padding: 10px;
+            margin: 20px auto;
+            border-radius: var(--border-radius-input);
+            height: 135px;
+            &::placeholder {
+                color: var(--main-color-25);
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-size: 1rem;
+            }
+            &:focus {
+                border: 2px var(--main-color) solid;
+                background: var(--main-color-10);
+                &::placeholder {
+                    color: var(--text-color-ligth);
+                }
+            }
+        }
+    }
+}

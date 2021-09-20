@@ -1,0 +1,89 @@
+.btn-principal {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    padding: 15px 70px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    background-color: var(--main-color);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border: 1px transparent solid;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        color: var(--main-color);
+        background-color: #fff;
+        border: 1px var(--main-color) solid;
+    }
+}
+
+.btn-secundario {
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 50px;
+    cursor: pointer;
+    color: var(--main-color);
+    background-color: #fff;
+    border: 1px var(--main-color) solid;
+    border-radius: var(--border-radius);
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        color: #fff;
+        background-color: var(--main-color);
+        border: 1px transparent solid;
+    }
+}
+
+.p-subtitle {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.li-not-padding {
+    list-style: none;
+    color: var(--text-color);
+
+    &::before {
+        content: "▪ ";
+    }
+}
+
+section.privacidad,
+section.condiciones,
+section.copyright,
+section.disclaimer,
+section.nosotros,
+section.servicios,
+section.portafolio,
+section.contacto {
+padding: 50px 100px;
+margin-bottom: 100px;
+    h3 {
+        text-transform: uppercase;
+        color: var(--main-color);
+        font-weight: 700;
+        text-align: center;
+    }
+    h2 {
+        text-transform: uppercase;
+        color: var(--text-color);
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        border-bottom: 2px var(--text-color-ligth) solid;
+    }
+    p {
+        margin: 30px auto;
+        color: var(--text-color);
+    }
+}

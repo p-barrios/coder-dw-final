@@ -1,0 +1,215 @@
+/* MEDIA QUERIES (Responsive) */
+
+/* Solo menu-mobile */
+@media screen and (max-width: 1080px) {
+    :root {
+      font-size: 14px;
+    }
+    .btn-secundario,
+    .btn-principal {
+      padding: 10px 25px;
+    }
+  
+    /* Menu mobile */
+    header .barra-navegacion {
+      display: none;
+    }
+  
+    header {
+      padding: 15px;
+    }
+  
+    header .menu-icon {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: right;
+      margin: 0;
+    }
+  
+    header .menu-icon img {
+      width: 4rem;
+    }
+  
+    header .menu-icon .btn-menu {
+      color: #fff;
+      font-size: 2.5rem;
+    }
+  
+    header.paginas .menu-icon .btn-menu {
+      color: var(--text-color);
+    }
+  
+    header .barra-navegacion-mobile {
+      display: block;
+      position: fixed;
+      top: 15%;
+      left: -100%;
+      overflow: hidden;
+      width: 200px;
+      height: auto;
+      background-color: rgba(0, 0, 0, 0.9);
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.9);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.9);
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.9);
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+      z-index: 10;
+    }
+  
+    header .barra-navegacion-mobile ul li {
+      text-align: left;
+      border-bottom: 1px solid var(--text-color-ligth);
+    }
+    header .barra-navegacion-mobile ul li:last-child {
+      text-align: left;
+      border-bottom: none;
+    }
+  
+    header .barra-navegacion-mobile ul li a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
+  /* Telefonos */
+  @media screen and (max-width: 800px) {
+    /* Generales */
+    section.privacidad,
+    section.condiciones,
+    section.copyright,
+    section.disclaimer,
+    section.nosotros,
+    section.servicios,
+    section.portafolio,
+    section.contacto {
+      padding: 50px;
+      margin-bottom: 100px;
+      h2 {
+        font-size: 2.3rem;
+      }
+    }
+  
+    /* section-informacion */
+    section.informacion {
+      background-color: var(--main-color-10);
+      padding: 100px 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    section.informacion .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #fff;
+      width: 60%;
+      margin: 1rem auto;
+      border-radius: var(--border-radius);
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+      text-align: left;
+      padding: 50px;
+    }
+  
+    /* section-galeria */
+    section.galeria {
+      padding: 75px 5px;
+      .grid-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        img {
+          width: 45%;
+          height: 150px;
+        }
+      }
+      
+    }
+  
+    /* section-comentarios */
+    section.comentarios {
+      padding: 50px;
+    }
+  
+    section.comentarios .comentario {
+      padding: 20px;
+    }
+  
+    /* section-nosotros */
+    section.nosotros img {
+      float: right;
+      margin-left: 10px;
+      width: 60%;
+    }
+  
+    /* section-servicios */
+    section.servicios .servicio {
+      flex-direction: column;
+      margin: 50px auto;
+    }
+  
+    section.servicios h4 {
+      width: 100%;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  
+    section.servicios .contenido {
+      text-align: center;
+      width: 100%;
+    }
+  
+    /* section-portafolio */
+    section.portafolio .galeria .grid-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    /* section-contacto */
+
+    section.contacto form .derecha,
+    section.contacto form .izquierda {
+      padding: 5px;
+      width: 100%;
+    }
+  
+    section.contacto textarea {
+      margin: 5px auto;
+    }
+  
+    /* Tienda */
+    .container-fluid {
+      padding: 0 !important;
+    }
+    
+    /* footer */
+    footer {
+      margin: 0;
+      padding: 50px 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    footer ul {
+      width: auto;
+    }
+  
+    footer .servicios,
+    footer .legales {
+      display: inline-block;
+      text-align: center;
+      margin: 20px auto;
+      width: 100%;
+    }
+  
+    footer .footer-right {
+      margin-left: 0;
+    }
+  }

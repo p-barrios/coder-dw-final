@@ -1,0 +1,19 @@
+/* Estilos generales */
+:root {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    /* variables */
+    --main-color: #ff73c0;
+    --main-color-10: rgba(255, 115, 192, 0.1);
+    --main-color-25: rgba(255, 115, 192, 0.25);
+    --text-color: #444;
+    --text-color-ligth: #888;
+    --border-radius: 10px;
+    --border-radius-input: 5px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }

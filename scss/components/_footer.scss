@@ -1,0 +1,54 @@
+/* footer */
+footer {
+  padding: 100px 0;
+  border-top: 1px var(--main-color) solid;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+    ul {
+      li {
+        list-style: none;
+
+          a {
+            text-decoration: none;
+            color: var(--text-color);
+          }
+      }
+    }
+
+  nav.servicios,
+  nav.legales {
+    display: inline-block;
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+    
+
+    p {
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: var(--main-color);
+    }
+  }
+
+  .footer-right {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+
+    .redes-sociales {
+      li {
+        display: inline-block;
+        margin-bottom: 30px;
+        padding: 10px;
+
+        img {
+          width: 2rem;
+        }
+      }
+    }
+  }
+}
