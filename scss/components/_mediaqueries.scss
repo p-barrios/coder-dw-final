@@ -116,7 +116,7 @@
     }
   
     /* section-galeria */
-    section.galeria {
+    .galeria {
       padding: 75px 5px;
       .grid-container {
         display: flex;
@@ -165,10 +165,14 @@
     }
   
     /* section-portafolio */
-    section.portafolio .galeria .grid-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+    section.portafolio {
+      padding: 50px 5px;
+      h2 {
+        margin: 10px 40px;
+      }
+      h4 {
+        text-align: center;
+      }
     }
   
     /* section-contacto */

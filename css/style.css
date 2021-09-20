@@ -685,16 +685,16 @@ section.contacto h2 {
   }
 
   /* section-galeria */
-  section.galeria {
+  .galeria {
     padding: 75px 5px;
   }
-  section.galeria .grid-container {
+  .galeria .grid-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
-  section.galeria .grid-container img {
+  .galeria .grid-container img {
     width: 45%;
     height: 150px;
   }
@@ -733,10 +733,14 @@ section.contacto h2 {
   }
 
   /* section-portafolio */
-  section.portafolio .galeria .grid-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  section.portafolio {
+    padding: 50px 5px;
+  }
+  section.portafolio h2 {
+    margin: 10px 40px;
+  }
+  section.portafolio h4 {
+    text-align: center;
   }
 
   /* section-contacto */
