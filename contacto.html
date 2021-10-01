@@ -65,25 +65,16 @@
       <section class="contacto">
         <h3>si deseas puedes</h3>
         <h2>contact&aacute;rnos</h2>
-        <form action="contacto.html" method="POST">
+        <form action="contacto.html" method="POST" id="formulario">
           <div class="derecha">
-            <input type="text" id="name" name="name" placeholder="Nombre" />
+            <input type="text" id="name_f" name="name_f" placeholder="Nombre" />
             <input type="email" id="email" name="email" placeholder="E-mail" />
-            <input
-              type="number"
-              id="phone"
-              name="phone"
-              placeholder="Telefono"
-            />
+            <input type="number" id="phone" name="phone" placeholder="Telefono" />
           </div>
           <div class="izquierda">
-            <textarea
-              name="mensage"
-              id="mensage"
-              placeholder="Mensaje"
-            ></textarea>
+            <textarea name="message" id="message" placeholder="Mensaje"></textarea>
           </div>
-          <input type="submit" value="Enviar" class="btn-principal" disabled />
+          <input type="submit" value="Enviar" class="btn-principal"/>
           <!-- quitar disabled al finalizar -->
         </form>
       </section>
@@ -145,6 +136,9 @@
     </footer>
 
     <!-- JS -->
+    <script src="js/smpt.js"></script>
+    <script src="js/sender.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
   </body>
