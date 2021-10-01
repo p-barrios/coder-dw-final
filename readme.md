@@ -15,7 +15,7 @@ Mi nombre es Pablo Barrios, estudiante de la carrera de Full Stack Developer
 
 ## Modificaciones
 
-1- crear repo en git y subir estado actual
-2- animaciones en botones que no sea tan brusco el cambio
-3- implementar ligthbox
-4- hacer andar el form
+* crear repo en git y subir estado actual
+* animaciones en botones que no sea tan brusco el cambio
+* implementar ligthbox
+* hacer andar el form
