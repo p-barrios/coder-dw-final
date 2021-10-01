@@ -10,6 +10,8 @@
   --main-color: #ff73c0;
   --main-color-10: rgba(255, 115, 192, 0.1);
   --main-color-25: rgba(255, 115, 192, 0.25);
+  --btn-prn-hover: #f55eb1;
+  --btn-sec-hover: #f2f2f2;
   --text-color: #444;
   --text-color-ligth: #888;
   --border-radius: 10px;
@@ -39,9 +41,7 @@
   transition: 0.3s ease-in-out;
 }
 .btn-principal:hover {
-  color: var(--main-color);
-  background-color: #fff;
-  border: 1px var(--main-color) solid;
+  background-color: var(--btn-prn-hover);
 }
 
 .btn-secundario {
@@ -59,9 +59,7 @@
   transition: 0.3s ease-in-out;
 }
 .btn-secundario:hover {
-  color: #fff;
-  background-color: var(--main-color);
-  border: 1px transparent solid;
+  background-color: var(--btn-sec-hover);
 }
 
 .p-subtitle {

@@ -15,9 +15,7 @@
     transition: 0.3s ease-in-out;
 
     &:hover {
-        color: var(--main-color);
-        background-color: #fff;
-        border: 1px var(--main-color) solid;
+        background-color: var(--btn-prn-hover);
     }
 }
 
@@ -36,9 +34,7 @@
     transition: 0.3s ease-in-out;
 
     &:hover {
-        color: #fff;
-        background-color: var(--main-color);
-        border: 1px transparent solid;
+        background-color: var(--btn-sec-hover);
     }
 }
 
