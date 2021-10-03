@@ -15,7 +15,10 @@ Mi nombre es Pablo Barrios, estudiante de la carrera de Full Stack Developer
 
 ## Modificaciones
 
-* crear repo en git y subir estado actual
-* animaciones en botones que no sea tan brusco el cambio
-* implementar ligthbox
-* hacer andar el form
+* Crear repo en git y subir estado actual
+* Animaciones en botones que no sea tan brusco el cambio de colores
+* Implementar ligthbox
+* Hacer andar el form
+* Ver tema de los colores en formulario de contacto	
+* Cambiar imagenes por fotos reales	
+* Aplicar SEO

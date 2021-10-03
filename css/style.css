@@ -86,19 +86,6 @@ section.contacto {
   padding: 50px 100px;
   margin-bottom: 100px;
 }
-section.privacidad h3,
-section.condiciones h3,
-section.copyright h3,
-section.disclaimer h3,
-section.nosotros h3,
-section.servicios h3,
-section.portafolio h3,
-section.contacto h3 {
-  text-transform: uppercase;
-  color: var(--main-color);
-  font-weight: 700;
-  text-align: center;
-}
 section.privacidad h2,
 section.condiciones h2,
 section.copyright h2,
@@ -107,6 +94,19 @@ section.nosotros h2,
 section.servicios h2,
 section.portafolio h2,
 section.contacto h2 {
+  text-transform: uppercase;
+  color: var(--main-color);
+  font-weight: 700;
+  text-align: center;
+}
+section.privacidad h1,
+section.condiciones h1,
+section.copyright h1,
+section.disclaimer h1,
+section.nosotros h1,
+section.servicios h1,
+section.portafolio h1,
+section.contacto h1 {
   text-transform: uppercase;
   color: var(--text-color);
   font-size: 3rem;
@@ -200,12 +200,12 @@ nav ul li a {
   justify-content: center;
   align-items: center;
 }
-.titulos h3 {
+.titulos h2 {
   font-weight: 300;
   font-size: 1.4rem;
   animation: fade-in 0.7s;
 }
-.titulos h2 {
+.titulos h1 {
   font-weight: 400;
   font-size: 4rem;
   margin-bottom: 50px;
@@ -334,7 +334,11 @@ section.comentarios .comentario p#com-2, section.comentarios .comentario p#com-3
 .galeria .grid-container a {
   width: 100%;
   height: 100%;
+  max-height: 180px;
   object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: var(--border-radius);
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
   transition: all 0.8s;
@@ -472,7 +476,7 @@ section.contacto form input[type=text],
 section.contacto form input[type=email],
 section.contacto form input[type=number] {
   width: 90%;
-  border: 2px var(--main-color-25) solid;
+  border: 2px var(--main-color) solid;
   padding: 10px;
   border-radius: var(--border-radius-input);
   margin: 20px auto;
@@ -480,7 +484,7 @@ section.contacto form input[type=number] {
 section.contacto form input[type=text]::placeholder,
 section.contacto form input[type=email]::placeholder,
 section.contacto form input[type=number]::placeholder {
-  color: var(--main-color-25);
+  color: var(--text-color);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1rem;
@@ -499,14 +503,14 @@ section.contacto form input[type=number]:focus::placeholder {
 section.contacto form textarea {
   width: 90%;
   display: inline-block;
-  border: 2px var(--main-color-25) solid;
+  border: 2px var(--main-color) solid;
   padding: 10px;
   margin: 20px auto;
   border-radius: var(--border-radius-input);
   height: 135px;
 }
 section.contacto form textarea::placeholder {
-  color: var(--main-color-25);
+  color: var(--text-color);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1rem;
@@ -654,14 +658,14 @@ section.contacto {
     padding: 50px;
     margin-bottom: 100px;
   }
-  section.privacidad h2,
-section.condiciones h2,
-section.copyright h2,
-section.disclaimer h2,
-section.nosotros h2,
-section.servicios h2,
-section.portafolio h2,
-section.contacto h2 {
+  section.privacidad h1,
+section.condiciones h1,
+section.copyright h1,
+section.disclaimer h1,
+section.nosotros h1,
+section.servicios h1,
+section.portafolio h1,
+section.contacto h1 {
     font-size: 2.3rem;
   }
 
@@ -740,7 +744,7 @@ section.contacto h2 {
   section.portafolio {
     padding: 50px 5px;
   }
-  section.portafolio h2 {
+  section.portafolio h1 {
     margin: 10px 40px;
   }
   section.portafolio h4 {

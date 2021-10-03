@@ -20,12 +20,12 @@ section.contacto {
         input[type="email"],
         input[type="number"] {
             width: 90%;
-            border: 2px var(--main-color-25) solid;
+            border: 2px var(--main-color) solid;
             padding: 10px;
             border-radius: var(--border-radius-input);
             margin: 20px auto;
             &::placeholder {
-                color: var(--main-color-25);
+                color: var(--text-color);
                 font-family: "Poppins", sans-serif;
                 font-weight: 500;
                 font-size: 1rem;
@@ -41,13 +41,13 @@ section.contacto {
         textarea {
             width: 90%;
             display: inline-block;
-            border: 2px var(--main-color-25) solid;
+            border: 2px var(--main-color) solid;
             padding: 10px;
             margin: 20px auto;
             border-radius: var(--border-radius-input);
             height: 135px;
             &::placeholder {
-                color: var(--main-color-25);
+                color: var(--text-color);
                 font-family: "Poppins", sans-serif;
                 font-weight: 500;
                 font-size: 1rem;
